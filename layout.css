@@ -1,0 +1,44 @@
+article.center {
+    float: left;
+    box-sizing: border-box;
+   
+    height: 300px;
+    width: 450px;
+    margin: 12px;
+    padding: 12px;
+    border-color: rgb(7, 58, 244);
+    border-style: solid;
+    border-width: 6px;
+    border-radius: 50px;
+    background-color: rgb(220, 247, 205);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+
+ 
+ } 
+ img{
+    float: left;
+ }
+ .topnav a {
+    float: left;
+    color: rgb(220, 247, 205);
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(15, 19, 235);
+    color:rgb(7, 58, 244);
+  }
+  
+  .topnav a.active {
+    background-color: rgb(220, 247, 205);
+    color: rgb(7, 58, 244);
+  }
+ .topnav {
+    position: sticky;
+    background-color: rgb(15, 19, 235);
+    overflow: hidden;
+  }
