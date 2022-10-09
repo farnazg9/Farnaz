@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact Us </title>
+    <style >
+        h1 {
+        color: #ebc5d1;
+}
+    </style>
+    <style>
+        table {
+          background-color: rgb(240, 242, 247);
+          border-collapse: collapse;
+          border: 6px solid rgb(14, 33, 244);
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          font-size: 24px;
+          line-height: 3.0;
+          margin: 0 auto;
+          width: 750px;
+          scroll-padding-block: 120px;
+        }
+      </style>
+    <link href="style.css" type="text/css" rel="stylesheet" >
+
+<body>
+    <header>
+        <h1><strong>Contact Us</strong></h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a> | <a href="test.html">About</a> | <a href="contact-us.html">Contact</a> | <a
+            href="faq.html">FAQS</a> | <a href="gallery.html">Gallery</a>
+    </nav>
+    <section>
+        <h2>Questions Or Concerns?</h2>
+        <p>Can we make make this page better? Please let us know! We'll be in touch within 24 hours.</p>
+        <fieldset class="w3-container w3-theme w3-round-large">
+
+
+            <legend class="w3-large ">Fill Out The Form Below</legend>
+            <h2>Personal Info</h2>
+
+
+            <form id="myMailerForm" action="mailto:help@beethoven.com" method="post">
+                <p>
+
+                    <label> First Name: <input type="text" name="firstname" placeholder="First Name"> </label>
+                    <label> Last Name: <input type="text" name="lastname" placeholder="Last Name"> </label>
+
+
+                </p>
+                <p>
+                    <label title="Your email address.">E-Mail: <input type="text" name="Email"
+                            placeholder="Email"></label>
+                </p>
+                <p>
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="123-456-7890"
+                        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                </p>
+                <p>
+                    How Should We Contact You?
+                </p>
+                <p><label title="telephone">telephone: <input type="checkbox" name="xxxx" value="yyyy" checked>
+                    </label>
+                <p><label title="email">email: <input type="checkbox" name="xxxx" value="yyyy">
+                    </label>
+                <h3>Tell Us What You Think</h3>
+
+                <p>
+                    Question or Comment? Let Us Know!
+                </p>
+                <p><label title="question">question:
+                        <input type="radio" name="xxxx" value="yyyy" checked></label>
+                    <label title="comment">comment:
+                        <input type="radio" name="xxxx" value="yyyy">
+                    </label>
+
+                <p><label title="reason">reason:
+                        <select name="xxxx" size="3" multiple>
+
+                            <option value="xxxx" selected> Tours </option>
+                            <option>Website Issues</option>
+                            <option>Performances</option>
+                            <option>Merchandise</option>
+
+
+                        </select>
+                    </label>
+
+
+
+                <p>
+                    <label for="message">Message</label><br>
+                    <textarea id="message" name="message"></textarea>
+                </p>
+                <input type="submit" name="submit" value="Send Mail">
+                <input type="reset" value="Reset">
+            </form>
+        </fieldset>
+    </section>
+    <section>
+        <h2>2022 Tours</h2>
+        <table >
+
+            <caption>Are You Interested In Any Of Our 2022 Tours?</caption>
+            <thead>
+                <tr>
+                    <td>&nbsp;</td>
+                    <th scope="col" abbr="Column 1" id="col1">Date</th>
+                    <th scope="col" abbr="Column 2" id="col2">Time</th>
+                    <th scope="col" abbr="Column 3" id="col3">Venue</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Germany</th>
+                    <td headers="col1">October 6</td>
+                    <td headers="col2">1PM</td>
+                    <td headers="col3">House of Beethoven</td>
+                </tr>
+                <tr>
+                    <th scope="row">Italy</th>
+                    <td headers="col1">October 18 </td>
+                    <td headers="col2">1PM</td>
+                    <td headers="col3">Grande Plazia</td>
+                </tr>
+                <tr>
+                    <th scope="row">Austria</th>
+                    <td headers="col1">November 3</td>
+                    <td headers="col2">1PM</td>
+                    <td headers="col3">Opus 3 Museum</td>
+                </tr>
+                <tr>
+                    <th scope="row">New York</th>
+                    <td headers="col1">November 15</td>
+                    <td headers="col2">1PM</td>
+                    <td headers="col3">Majestic Theatre</td>
+                </tr>
+                <tr>
+                    <th scope="row">Dallas</th>
+                    <td headers="col1">December 2</td>
+                    <td headers="col2">1PM</td>
+                    <td headers="col3">American Airlines Center</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+
+
+
+
+    <footer>
+
+        <p><a href="https://www.dallascollege.edu/pages/default.aspx">Dallas College</a></p>
+        <p><a href="mailto:help@beethoven.com">Webmaster</a></p>
+       
+
+    </footer>
+
+
+</body>
+
+</html>
