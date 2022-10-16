@@ -1,35 +1,62 @@
 article.center {
     float: left;
     box-sizing: border-box;
-   
-    height: 300px;
-    width: 450px;
-    margin: 12px;
-    padding: 12px;
+    width: 700px;
+    margin: 10px;
+    padding: 2px;
     border-color: rgb(7, 58, 244);
     border-style: solid;
-    border-width: 6px;
-    border-radius: 50px;
+    border-width: 2px;
+    border-radius: 10px;
     background-color: rgb(220, 247, 205);
     font-family: 'Courier New', Courier, monospace;
     font-size: 12px;
 
- 
  } 
- img{
+ article.center h2 {
+  padding: 20px 10vw 30px;
+  text-align: center;
+}
+article.center > p {
+  margin: 30px 60px;
+  
+}
+ section.gallery {
+  position: relative;
+  width: 100%;
+}
+ figure {
     float: left;
+    width: 35vw;
+    margin: 2vh 0;
  }
+ article:nth-child(even)>figure {
+  float: right;
+}
+figure img {
+  display:block;
+  height: 300px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+figcaption {
+  text-align: center;
+  clear: both;
+  color: rgb(7, 58, 244);
+  font-size: 14px;
+}
  .topnav a {
     float: left;
-    color: rgb(220, 247, 205);
+    color: rgb(22, 29, 225);
     text-align: center;
-    padding: 12px 14px;
+    padding: 14px 16px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
   }
   
   .topnav a:hover {
-    background-color: rgb(15, 19, 235);
+    background-color: rgb(242, 164, 226);
     color:rgb(7, 58, 244);
   }
   
@@ -38,7 +65,12 @@ article.center {
     color: rgb(7, 58, 244);
   }
  .topnav {
-    position: sticky;
-    background-color: rgb(15, 19, 235);
-    overflow: hidden;
+  background-color: rgb(220, 247, 205);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  margin-left: 20px;
+  margin-right: 20px;
+  position: sticky;
+  overflow: hidden;
+  top: 0;
   }
