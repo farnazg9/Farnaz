@@ -22,25 +22,26 @@
           scroll-padding-block: 120px;
         }
       </style>
-    <link href="style.css" type="text/css" rel="stylesheet" >
+    <link href="css/style.css" type="text/css" rel="stylesheet" >
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 
 <body>
-    <i class="fa fa-home"></i>
-<i class="fa fa-search"></i>
+   
 
     <header class="w3-container w3-indigo">
         <h1><strong>Contact Us</strong></h1>
     </header>
-    <nav class="topnav">
-        <a class="active" href="index.html">Home</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="contact-us.html">Contact</a>
-        <a href="faq.html">FAQS</a>
-     </nav>
+    <div class="w3-bar w3-White">
+        <a href="index.html" class="w3-bar-item w3-button">Home</a>
+        <a href="gallery.html" class="w3-bar-item w3-button">Gallery</a>
+        <a href="contact-us.html" class="w3-bar-item w3-button">Contact</a>
+        <a href="faq.html" class="w3-bar-item w3-button">FAQS</a>
+        <a href="about-us.html" class="w3-bar-item w3-button">About</a>
+      </div>
+  
     <section>
-        <button class="w3-button w3-yellow">CHAT NOW!</button>
+       
         <h2>Questions Or Concerns?</h2>
         <p>Can we make make this page better? Please let us know! We'll be in touch within 24 hours.</p>
         <fieldset>
@@ -107,7 +108,27 @@
                 </p>
                 <input type="submit" name="submit" value="Send Mail">
                 <input type="reset" value="Reset">
+                
             </form>
+            <p>
+                <form class="w3-container w3-card-4" action="/action_page.php">
+                    <h2 class="w3-text-Black">Giveaway!</h2>
+                    <p>Enter your info for a chance to win a free Beethoven T-Shirt!</p>
+                    <p>      
+                    <label class="w3-text-Black"><b>First Name</b>
+                    <input class="w3-input w3-border" name="first" type="text"></label></p>
+                    <p>      
+                    <label class="w3-text-Black"><b>Last Name</b>
+                    <input class="w3-input w3-border" name="last" type="text"></label></p>
+                    <p>      
+                        <label class="w3-text-Black"><b>Email</b>
+                        <input class="w3-input w3-border" name="email" type="text"></label></p>
+                    <p>      
+                    <button class="w3-btn w3-Black">Enter Now!</button></p>
+               
+                  </form>
+                  
+            
         </fieldset>
     </section>
     <section>
